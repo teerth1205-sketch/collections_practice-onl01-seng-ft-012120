@@ -30,4 +30,10 @@ def kesha_maker(array)
     arrays << string[2] = "$"
   end 
 end 
+
+def find_a(array)
+  arrays = []
+  i = 0
+  while i < array.length
+    if array[i].starts_with
     
