@@ -35,7 +35,7 @@ def find_a(array)
   arrays = []
   i = 0
   while i < array.length
-    if array[i].starts_with("a")
+    if array[i].start_with("a")
       arrays << array[i]
     end 
    i += 1
