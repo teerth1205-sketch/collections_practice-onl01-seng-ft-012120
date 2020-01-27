@@ -39,5 +39,6 @@ def find_a(array)
       arrays << array[i]
     end 
    i += 1
-end 
+  end 
+  arrays
 end 
